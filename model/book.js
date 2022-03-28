@@ -20,6 +20,11 @@ const bookSchema = new mongoose.Schema({
     quantity:{
         type:Number,
         default:0
+    },
+    description:{
+        type:String,
+        required:true,
+        default:'This is description regarding this book u can read ceratin detail about that'
     }
 });
 
