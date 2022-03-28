@@ -1,0 +1,16 @@
+{
+  "name": "nodecrud",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js"
+  },
+  "author": "Aman Sharma",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.3",
+    "mongodb": "^4.4.1",
+    "mongoose": "^6.2.8"
+  }
+}
